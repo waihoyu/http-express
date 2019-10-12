@@ -48,6 +48,7 @@ function get(key) {
 
 module.exports = {
     set,
-    get
+    get,
+    redisClient
 }
 
